@@ -27,8 +27,7 @@ function greet(timeString){
  let testContent = "TEST";
   
 function displayMessage(testContent){
-  let content = document.getElementById("greeting").innerText;
-  content == testContent;
+  document.getElementById("greeting").innerText = testContent;
 }
 
 displayMessage(testContent);
